@@ -1,0 +1,68 @@
+# Byte-compiled files
+*.py[cod]
+__pycache__/
+*.so
+
+# Logs e bases de dados locais
+*.log
+*.sqlite3
+
+# Arquivos temporários e de sistema
+*.tmp
+*.swp
+*.bak
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Configurações específicas do ambiente
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# Dependências instaladas
+*.egg-info/
+.eggs/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Caches e artefatos de build
+build/
+dist/
+*.egg
+*.manifest
+*.spec
+
+# Arquivos do pytest
+.cache/
+*.pytest_cache/
+
+# Arquivos de cobertura de testes
+.coverage
+*.coverage
+htmlcov/
+
+# Configuração de IDEs
+.idea/
+.vscode/
+*.iml
+
+# Arquivos de contêineres (Docker)
+.dockerignore
+
+# Arquivos gerados por ferramentas
+.mypy_cache/
+.pytest_cache/
+.pytype/
+
+# Notebooks Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Arquivos de blocos de empacotamento
+*.lock
+Pipfile
+Pipfile.lock
+poetry.lock
